@@ -6,7 +6,7 @@ select * from electronics;
 
 set sql_safe_updates =0;
 
-LOAD DATA INFILE "D:/Course/Project 5-EDA using SQL/ElectronicsData.csv"
+LOAD DATA INFILE "ElectronicsData.csv"
 INTO TABLE electronics
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
@@ -144,7 +144,6 @@ select @q1 as Quarter1, @q2 as Median, @q3 as Quarter3;
 -- Outliers
 select * from electronics where price < (@q1-1.5*(@q3-@q1)) or price > (@q3+1.5*(@q3-@q1));
 
--- Histogram
 select bucket, count(*)
 from (
 	select price,
@@ -161,12 +160,11 @@ from (
 -- Checking for nulls
 select count(*) from electronics where `Sub Category` is null;
 
--- Pie chart
 select `Sub Category`, count(*) as counts from electronics group by `Sub Category`;
 
 -- BIVARIATE ANALYSIS
 -- Numerical -  Numerical Columns
--- Scatter plot
+
 select reviews, rating from electronics;
 
 -- Check Covariance
