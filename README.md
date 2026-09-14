@@ -53,4 +53,7 @@ Retail catalogs often suffer from inconsistent data entry, making it impossible 
 *   **Risk & Quality Control Visibility:** Standard deviation analysis exposed stark contrasts in quality control. Brands like Ring and Microsoft maintain perfect rating consistency (0.00 volatility), while security brands like SWANN and Lorex exhibit severe rating swings (>0.83 volatility) combined with the lowest average ratings, indicating defective batches that damage brand trust.
 
 ## 7. Dashboard Screenshot:
+
+**[Click Here to Interact with the Live Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMWMwM2RlZWItMDljZS00NmZkLWFmNjQtYTJjNWFkYmRiMGYwIiwidCI6IjhlMjQ0OTAwLWJiZDQtNGNlMC1iNzlhLTQ4ZTMwYWRjMDFkNyJ9)**
+
 ![Dashboard Preview](https://github.com/chinmai-budati/EDA-Using-SQL/blob/main/Electronics%20Ecommerce%20Dashboard.png)
