@@ -2,10 +2,6 @@
 
 An automated SQL data engineering and advanced exploratory data analysis initiative that processes unstructured electronics retail records. It features dynamic non-destructive ETL pipelines, text-mining, and statistical variance modeling to expose competitive pricing elasticity, brand risk, and market penetration strategies.
 
-**Interactive Portfolio Links**
-*   **View the Full SQL Script:** [Insert Link to your revised_code.sql on GitHub]
-*   **View the Interactive Dashboard:** [Insert Link to Power BI / Streamlit if applicable]
-
 ---
 
 ## 1. Project Overview
