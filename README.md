@@ -51,3 +51,6 @@ Retail catalogs often suffer from inconsistent data entry, making it impossible 
 *   **Pricing Elasticity & Inventory Bottlenecks:** Segmenting product engagement revealed a strict inverse correlation between pricing and consumer interaction. Half of the catalog falls into the "Low/Niche" tier (averaging $1,134), indicating that premium pricing acts as a significant bottleneck. The optimal turnover sweet spot exists in the "Strong" engagement tier at $640–$730.
 *   **Marketing Buzzword Valuation:** Text mining revealed that standard/unspecified electronics drive the highest average consumer engagement (530 reviews). Hardware heavily marketed with premium buzzwords like "Smart Enabled" or "Wireless" significantly underperforms (345 and 143 reviews, respectively), proving these tags do not inherently drive higher sales volume.
 *   **Risk & Quality Control Visibility:** Standard deviation analysis exposed stark contrasts in quality control. Brands like Ring and Microsoft maintain perfect rating consistency (0.00 volatility), while security brands like SWANN and Lorex exhibit severe rating swings (>0.83 volatility) combined with the lowest average ratings, indicating defective batches that damage brand trust.
+
+## 7. Dashboard Screenshot:
+![Dashboard Preview](https://github.com/chinmai-budati/EDA-Using-SQL/blob/main/Electronics%20Ecommerce%20Dashboard.png)
